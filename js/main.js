@@ -245,8 +245,9 @@ $(function() {
 		ctx.beginPath();
 		ctx.lineWidth = "6";
 		ctx.strokeStyle = "red";
-		//ctx.rect(384, 90, 512, 540);
-		ctx.rect(486.4, 144, 307.2, 432);
+		
+		ctx.rect(486.4, 144, 307.2, 432); //small rect
+		//ctx.rect(448, 120, 384, 510); // big rect
 		ctx.stroke();
         setTimeout(loop, 1000 / 30); // drawing at 30fps
       }
